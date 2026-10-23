@@ -1,0 +1,715 @@
+{
+ "corpus": {
+  "jobs": 1235,
+  "usable": 928,
+  "sources": [
+   "Arbeitnow",
+   "Himalayas",
+   "Remote OK"
+  ],
+  "relevant_by_title": 230
+ },
+ "evidence_levels": {
+  "demonstrated": [
+   "api design",
+   "ci/cd",
+   "data visualization",
+   "docker",
+   "duckdb",
+   "fastapi",
+   "flask",
+   "machine learning",
+   "numpy",
+   "pandas",
+   "python",
+   "rag",
+   "scikit-learn",
+   "sql",
+   "sqlite",
+   "statistics",
+   "streamlit",
+   "testing",
+   "time series"
+  ],
+  "mentioned": [
+   "airflow",
+   "bash",
+   "computer vision",
+   "data analysis",
+   "dbt",
+   "git",
+   "html",
+   "javascript",
+   "llm",
+   "oracle",
+   "postgresql",
+   "power bi",
+   "tableau"
+  ],
+  "claimed": [
+   "automation",
+   "excel",
+   "java",
+   "mysql",
+   "system design"
+  ]
+ },
+ "resume_suggestions": {
+  "add_to_resume": [
+   "api design",
+   "ci/cd",
+   "docker",
+   "duckdb",
+   "fastapi",
+   "machine learning",
+   "rag",
+   "sqlite",
+   "statistics",
+   "testing",
+   "time series"
+  ],
+  "listed_but_unproven": [
+   "automation",
+   "excel",
+   "java",
+   "mysql",
+   "system design"
+  ]
+ },
+ "extraction_recall": {
+  "jobs_with_mappable_tags": 34,
+  "tags_total": 63,
+  "tags_found_in_text": 42,
+  "recall": 0.667
+ },
+ "ranking": {
+  "evidence-based skill match (this project)": {
+   "p_at_10": 0.6,
+   "p_at_20": 0.45,
+   "ndcg_at_20": 0.878
+  },
+  "every listed skill counts equally (no evidence)": {
+   "p_at_10": 0.4,
+   "p_at_20": 0.4,
+   "ndcg_at_20": 0.831
+  },
+  "plain text similarity (TF-IDF)": {
+   "p_at_10": 0.2,
+   "p_at_20": 0.2,
+   "ndcg_at_20": 0.516
+  },
+  "random order (average of 200 shuffles)": {
+   "p_at_10": 0.236,
+   "p_at_20": 0.239,
+   "ndcg_at_20": 0.573
+  }
+ },
+ "plan": [
+  {
+   "skill": "tensorflow",
+   "wanted_by": 4,
+   "of": 30,
+   "current_level": "none",
+   "category": "ml",
+   "you_already_have_nearby": [
+    "machine learning",
+    "rag",
+    "scikit-learn"
+   ],
+   "how_to_prove_it": "train, evaluate and honestly report a model on a public benchmark",
+   "average_score_gain": 0.011
+  },
+  {
+   "skill": "data analysis",
+   "wanted_by": 12,
+   "of": 30,
+   "current_level": "mentioned",
+   "category": "data",
+   "you_already_have_nearby": [
+    "data visualization",
+    "numpy",
+    "pandas"
+   ],
+   "how_to_prove_it": "do an analysis on a real dataset and write up the conclusion",
+   "average_score_gain": 0.0114
+  },
+  {
+   "skill": "etl",
+   "wanted_by": 3,
+   "of": 30,
+   "current_level": "none",
+   "category": "data eng",
+   "you_already_have_nearby": [
+    "duckdb"
+   ],
+   "how_to_prove_it": "build a pipeline that loads, checks and transforms real data on a schedule",
+   "average_score_gain": 0.007
+  },
+  {
+   "skill": "excel",
+   "wanted_by": 4,
+   "of": 30,
+   "current_level": "claimed",
+   "category": "bi",
+   "you_already_have_nearby": [],
+   "how_to_prove_it": "build a dashboard on a real dataset and publish a screenshot or link",
+   "average_score_gain": 0.0076
+  },
+  {
+   "skill": "automation",
+   "wanted_by": 4,
+   "of": 30,
+   "current_level": "claimed",
+   "category": "practice",
+   "you_already_have_nearby": [
+    "api design",
+    "testing"
+   ],
+   "how_to_prove_it": "add it to a project you already have and show the result in the README",
+   "average_score_gain": 0.0069
+  },
+  {
+   "skill": "pytorch",
+   "wanted_by": 2,
+   "of": 30,
+   "current_level": "none",
+   "category": "ml",
+   "you_already_have_nearby": [
+    "machine learning",
+    "rag",
+    "scikit-learn"
+   ],
+   "how_to_prove_it": "train, evaluate and honestly report a model on a public benchmark",
+   "average_score_gain": 0.0047
+  }
+ ],
+ "plan_simulation": {
+  "top_jobs": 30,
+  "baseline_avg_score": 0.634,
+  "recommended_skills_gain": 0.049,
+  "random_skills_gain_mean": 0.007,
+  "random_skills_gain_p95": 0.016
+ },
+ "top_matches": [
+  {
+   "title": "Data Scientist (AI Data & LLM Specialist)",
+   "company": "Eclipse Laboratories",
+   "url": "https://himalayas.app/companies/eclipse-laboratories/jobs/data-scientist-ai-data-llm-specialist?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.733,
+   "years": null,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "pandas",
+     "demonstrated"
+    ],
+    [
+     "numpy",
+     "demonstrated"
+    ],
+    [
+     "scikit-learn",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "llm",
+     "mentioned"
+    ],
+    [
+     "rag",
+     "demonstrated"
+    ],
+    [
+     "api design",
+     "demonstrated"
+    ]
+   ],
+   "gaps": [
+    "llm",
+    "mlops"
+   ]
+  },
+  {
+   "title": "Data Scientist",
+   "company": "Sajix Software Solution Private Limited",
+   "url": "https://himalayas.app/companies/sajix-software-solution-private-limited/jobs/data-scientist?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.682,
+   "years": null,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "pandas",
+     "demonstrated"
+    ],
+    [
+     "numpy",
+     "demonstrated"
+    ],
+    [
+     "scikit-learn",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ],
+    [
+     "data analysis",
+     "mentioned"
+    ],
+    [
+     "excel",
+     "claimed"
+    ]
+   ],
+   "gaps": [
+    "data analysis",
+    "excel",
+    "automation"
+   ]
+  },
+  {
+   "title": "ML Intern: Optimization Quality & Monitoring",
+   "company": "Nexoya",
+   "url": "https://www.arbeitnow.ch/jobs/companies/nexoya/ml-intern-optimization-quality-monitoring-zurich-167634",
+   "source": "Arbeitnow",
+   "score": 0.675,
+   "years": null,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ],
+    [
+     "automation",
+     "claimed"
+    ],
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "pandas",
+     "demonstrated"
+    ],
+    [
+     "numpy",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "data visualization",
+     "demonstrated"
+    ]
+   ],
+   "gaps": [
+    "automation",
+    "etl",
+    "git"
+   ]
+  },
+  {
+   "title": "Co-op, Machine Learning Engineering",
+   "company": "Lifelancer",
+   "url": "https://himalayas.app/companies/lifelancer/jobs/co-op-machine-learning-engineering?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.675,
+   "years": null,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "data analysis",
+     "mentioned"
+    ],
+    [
+     "git",
+     "mentioned"
+    ],
+    [
+     "testing",
+     "demonstrated"
+    ],
+    [
+     "api design",
+     "demonstrated"
+    ]
+   ],
+   "gaps": [
+    "data analysis",
+    "git"
+   ]
+  },
+  {
+   "title": "Junior Data Scientist",
+   "company": "Jobskey Consultancy",
+   "url": "https://himalayas.app/companies/jobskeyconsultancy/jobs/junior-data-scientist?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.669,
+   "years": null,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "pandas",
+     "demonstrated"
+    ],
+    [
+     "numpy",
+     "demonstrated"
+    ],
+    [
+     "scikit-learn",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ],
+    [
+     "data analysis",
+     "mentioned"
+    ]
+   ],
+   "gaps": [
+    "tensorflow",
+    "pytorch",
+    "data analysis"
+   ]
+  },
+  {
+   "title": "Data Scientist",
+   "company": "Ample Insight Inc.",
+   "url": "https://himalayas.app/companies/ample-insight-inc/jobs/data-scientist-7162226088?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.64,
+   "years": null,
+   "matched": [
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ],
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "pandas",
+     "demonstrated"
+    ],
+    [
+     "numpy",
+     "demonstrated"
+    ],
+    [
+     "scikit-learn",
+     "demonstrated"
+    ]
+   ],
+   "gaps": [
+    "tensorflow"
+   ]
+  },
+  {
+   "title": "Junior Data Scientist",
+   "company": "SavageOne",
+   "url": "https://himalayas.app/companies/savageone/jobs/junior-data-scientist?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.624,
+   "years": null,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "java",
+     "claimed"
+    ],
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "pandas",
+     "demonstrated"
+    ],
+    [
+     "numpy",
+     "demonstrated"
+    ],
+    [
+     "scikit-learn",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ]
+   ],
+   "gaps": [
+    "java",
+    "tensorflow",
+    "pytorch",
+    "data analysis",
+    "tableau"
+   ]
+  },
+  {
+   "title": "Data Scientist",
+   "company": "Interchecks",
+   "url": "https://himalayas.app/companies/interchecks/jobs/data-scientist?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.615,
+   "years": 2,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "scikit-learn",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ],
+    [
+     "git",
+     "mentioned"
+    ]
+   ],
+   "gaps": [
+    "data warehousing",
+    "snowflake",
+    "git"
+   ]
+  },
+  {
+   "title": "Data Analyst",
+   "company": "Wealth Enhancement",
+   "url": "https://himalayas.app/companies/wealth-enhancement/jobs/data-analyst?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.611,
+   "years": 2,
+   "matched": [
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ],
+    [
+     "data analysis",
+     "mentioned"
+    ],
+    [
+     "data visualization",
+     "demonstrated"
+    ],
+    [
+     "power bi",
+     "mentioned"
+    ],
+    [
+     "tableau",
+     "mentioned"
+    ],
+    [
+     "excel",
+     "claimed"
+    ]
+   ],
+   "gaps": [
+    "data analysis",
+    "power bi",
+    "tableau",
+    "excel"
+   ]
+  },
+  {
+   "title": "Data Scientist",
+   "company": "Epistemix",
+   "url": "https://himalayas.app/companies/epistemix/jobs/data-scientist?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.609,
+   "years": 2,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "data visualization",
+     "demonstrated"
+    ],
+    [
+     "power bi",
+     "mentioned"
+    ],
+    [
+     "tableau",
+     "mentioned"
+    ],
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ]
+   ],
+   "gaps": [
+    "power bi",
+    "tableau",
+    "data warehousing"
+   ]
+  },
+  {
+   "title": "Associate Data Scientist",
+   "company": "Reliance Health",
+   "url": "https://himalayas.app/companies/reliance-health/jobs/associate-data-scientist?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.587,
+   "years": 2,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "scikit-learn",
+     "demonstrated"
+    ],
+    [
+     "machine learning",
+     "demonstrated"
+    ],
+    [
+     "statistics",
+     "demonstrated"
+    ],
+    [
+     "data analysis",
+     "mentioned"
+    ],
+    [
+     "data visualization",
+     "demonstrated"
+    ],
+    [
+     "power bi",
+     "mentioned"
+    ]
+   ],
+   "gaps": [
+    "tensorflow",
+    "pytorch",
+    "data analysis",
+    "power bi",
+    "tableau"
+   ]
+  },
+  {
+   "title": "Python Developer \u2013 Security Operations Automation",
+   "company": "Valce Talent Solutions",
+   "url": "https://himalayas.app/companies/valce-talent-solutions/jobs/python-developer-security-operations-automation?utm_source=api",
+   "source": "Himalayas",
+   "score": 0.586,
+   "years": 1,
+   "matched": [
+    [
+     "python",
+     "demonstrated"
+    ],
+    [
+     "sql",
+     "demonstrated"
+    ],
+    [
+     "data analysis",
+     "mentioned"
+    ],
+    [
+     "api design",
+     "demonstrated"
+    ],
+    [
+     "automation",
+     "claimed"
+    ]
+   ],
+   "gaps": [
+    "data analysis",
+    "automation"
+   ]
+  }
+ ]
+}
